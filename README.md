@@ -1,0 +1,3 @@
+Implemented a kernel-level C++ thread library on Unix from scratch, handling CPU booting, thread lifecycle management, multi (50+) CPU management, timer and inter-processor interrupts, atomicity, and FIFO thread scheduling order.
+
+Added support for low level synchronization primitives like mutexes and condition variables that leverage an atomic guard variable to implement spinlocks for mutual exclusion in multi-core environments.
